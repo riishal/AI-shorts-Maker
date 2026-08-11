@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+uploads/
+outputs/
+*.pyc
+
+# Secrets - never commit
+.env
+
+# Generated caption/transcript artifacts
+*.ass
+transcript.txt
+!analysis_options.yaml
+
+# Flutter build output
+frontend/build/
+frontend/.dart_tool/

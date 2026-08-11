@@ -1,0 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local data / generated artifacts
+uploads/
+outputs/
+*.ass
+transcript.txt
+
+# Frontend (built separately, served via Firebase Hosting)
+frontend/
+
+# Secrets & editor
+.env
+.idea/
+.vscode/
+.git/
+
+# Media samples
+*.mp3
+*.wav
